@@ -32,74 +32,91 @@ YandexMapLinkViewer.prototype = {
     	//"concept_mapped_line_string"
     	//"concept_mapped_linear_ring"
     	//"concept_mapped_polygon"
+	//"concept_geo_route"
         $(this._container).empty();
-        $(this._container).append('<div id="' + this._container + '" style=" width: 400px;height:400px;padding: 5px;" ></div>');
-        var dataJSON = JSON.parse(data);
-        switch(dataJSON.objectType){
-        	case "concept_mapped_point" :{
-        		var myMap = new ymaps.Map(this._container, {
-        	        center: dataJSON.coordinates,
-        	        zoom: 10
-        	    }),
-        	    myGeoObject = new ymaps.GeoObject({
-        	        geometry: {
-        	            type: "Point",
-        	            coordinates: dataJSON.coordinates
-        	       }
-        	    });
-        	myMap.geoObjects.add(myGeoObject);
-        		break;
-        	}
-        	case "concept_mapped_line_string" :{
-        		var myMap = new ymaps.Map(this._container, {
-        	            center: dataJSON.coordinates[0],
-        	            zoom: 15
-        	        }); 
-        		dataJSON.coordinates.pop();
-        		myGeoObject = new ymaps.GeoObject({
-        	        geometry: {
-        	            type: "LineString",
-        	            coordinates: dataJSON.coordinates
-        	       }
-        	    });
-        		myMap.geoObjects.add(myGeoObject);
-        		break;
-        	}
-        	case "concept_mapped_linear_ring" :{
-	        	var myMap = new ymaps.Map(this._container, {
-	    	            center: dataJSON.coordinates[0],
-	    	            zoom: 15
-	    	        }); 
-	    		dataJSON.coordinates.push(dataJSON.coordinates[0]);
-	    		myGeoObject = new ymaps.GeoObject({
-	    	        geometry: {
-	    	            type: "LineString",
-	    	            coordinates: dataJSON.coordinates
-	    	       }
-	    	    });
-	    		myMap.geoObjects.add(myGeoObject);
-	    		break;
-        	}
-        	case "concept_mapped_polygon" :{
-        		var myMap = new ymaps.Map(this._container, {
-    	            center: dataJSON.coordinates[0][0],
-    	            zoom: 15
-	    	        }); 
-        		dataJSON.coordinates[0].pop();
-                dataJSON.coordinates[1].pop();
-	    		myGeoObject = new ymaps.GeoObject({
-	    	        geometry: {
-	    	            type: "Polygon",
-	    	            coordinates: [
-	    	                          dataJSON.coordinates[0],
-	    	                          dataJSON.coordinates[1],
-	    	                         ]
-	    	       }
-	    	    });
-	    		myMap.geoObjects.add(myGeoObject);
-	    		break;
-        	}
-        }
+        $(this._container).append('<div id="' + this._container + '" style=" width: 800px;height:400px;padding: 5px;" ></div>');
+        var dataJSONArray = JSON.parse(data);
+	var index;
+
+	var myMap;
+
+	for (index = 0; index < dataJSONArray.length; ++index) {
+    		var dataJSON = dataJSONArray[index];
+		switch(dataJSON.objectType){
+			case "concept_mapped_point" :{
+				if(index==0){
+					myMap = new ymaps.Map(this._container, {
+					center: dataJSON.coordinates,
+					zoom: 10
+				    });				
+				}
+				myGeoObject = new ymaps.GeoObject({
+			        geometry: {
+			            type: "Point",
+			            coordinates: dataJSON.coordinates
+			       }
+			    });
+			myMap.geoObjects.add(myGeoObject);
+				break;
+			}
+			case "concept_mapped_line_string" :{
+				 if(index==0){
+					myMap = new ymaps.Map(this._container, {
+					center: dataJSON.coordinates[0],
+					zoom: 10
+				    });				
+				}
+				dataJSON.coordinates.pop();
+				myGeoObject = new ymaps.GeoObject({
+			        geometry: {
+			            type: "LineString",
+			            coordinates: dataJSON.coordinates
+			       }
+			    });
+				myMap.geoObjects.add(myGeoObject);
+				break;
+			}
+			case "concept_mapped_linear_ring" :{
+				if(index==0){
+					myMap = new ymaps.Map(this._container, {
+					center: dataJSON.coordinates[0],
+					zoom: 10
+				    });				
+				}
+		    		dataJSON.coordinates.push(dataJSON.coordinates[0]);
+		    		myGeoObject = new ymaps.GeoObject({
+		    	        geometry: {
+		    	            type: "LineString",
+		    	            coordinates: dataJSON.coordinates
+		    	       }
+		    	    });
+		    		myMap.geoObjects.add(myGeoObject);
+		    		break;
+			}
+			case "concept_mapped_polygon" :{
+				if(index==0){
+					myMap = new ymaps.Map(this._container, {
+					center: dataJSON.coordinates[0][0],
+					zoom: 10
+				    });				
+				}
+				dataJSON.coordinates[0].pop();
+		        dataJSON.coordinates[1].pop();
+		    		myGeoObject = new ymaps.GeoObject({
+		    	        geometry: {
+		    	            type: "Polygon",
+		    	            coordinates: [
+		    	                          dataJSON.coordinates[0],
+		    	                          dataJSON.coordinates[1],
+		    	                         ]
+		    	       }
+		    	    });
+		    		myMap.geoObjects.add(myGeoObject);
+		    		break;
+			}
+		}
+	}
+	
     },
 };
 
