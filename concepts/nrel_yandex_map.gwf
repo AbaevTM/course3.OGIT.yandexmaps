@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="193" id="159964736" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="200.802" y="120.529" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="159976168" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="530.865" y="168.779" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="159952336" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="530.865" y="74.529" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_yandex_map" shapeColor="0" id="158346512" parent="0" left="0" top="0" right="107.344" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="73.5309" y="168.279" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="158343432" parent="0" x="358.531" y="76.529" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[yandex map*]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="158340344" parent="0" x="352.552" y="168.279" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[яндекс карта*]]></content>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="159993360" parent="0" id_b="158346512" id_e="158340344" b_x="73.5309" b_y="168.279" e_x="352.552" e_y="168.279" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="159992736" parent="0" id_b="159994224" id_e="158343432" b_x="0" b_y="0" e_x="358.531" e_y="76.529" dotBBalance="0.832942" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="159991936" parent="0" id_b="159952336" id_e="158343432" b_x="530.865" b_y="74.529" e_x="358.531" e_y="76.529" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="159991208" parent="0" id_b="159976168" id_e="158340344" b_x="530.865" b_y="168.779" e_x="352.552" e_y="168.279" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="159990544" parent="0" id_b="159964736" id_e="159993360" b_x="200.802" b_y="120.529" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="159989784" parent="0" id_b="159964736" id_e="159992736" b_x="200.802" b_y="120.529" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.681712">
+            <points/>
+        </arc>
+        <bus type="" idtf="" shapeColor="0" id="159994224" parent="0" owner="158346512" b_x="73.6176" b_y="158.779" e_x="74.5099" e_y="61.029">
+            <points/>
+        </bus>
+    </staticSector>
+</GWF>

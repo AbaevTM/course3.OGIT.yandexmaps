@@ -1,373 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="25529616" parent="0" x="2.93243" y="1240.21" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде полигона (допускается наличие не только внешней, но и внутренней границ).]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="168963032" parent="0" x="-680.632" y="1612.85" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[конечная точка маршрута между двумя точками карты.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="28833408" parent="0" x="461.474" y="1281.78" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[полигональный объект карты]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="170563072" parent="0" x="-1139.18" y="1571.29" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Указывает на конечную точку маршрута  между двумя точечными объектами карты.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="25530192" parent="0" x="721.474" y="1155.53" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object maped as a polygon]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="168729368" parent="0" x="-357.588" y="1472.47" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[end element of route for two mapped points.]]></content>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_polygon" shapeColor="0" id="32287280" parent="0" left="0" top="0" right="150.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="459.85" y="1156.86" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="rrel_geo_route_end" shapeColor="0" id="167237776" parent="0" left="0" top="0" right="121" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-682.256" y="1487.94" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="34811424" parent="0" left="0" top="0" right="91.7969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="116.184" y="1157.86" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="168891984" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-754.923" y="1417.61" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36688720" parent="0" x="273.85" y="1238.03" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="170584624" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-1025.93" y="1528.6" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="22889072" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="623.724" y="1233.53" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="169174432" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-420.319" y="1605.6" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="34810112" parent="0" x="273.85" y="1157.86" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="168775328" parent="0" x="-868.256" y="1488.94" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="21888720" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="387.183" y="1086.53" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="169214496" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-518.382" y="1564.6" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="35828752" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="309.787" y="1440.77" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="169682536" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-832.319" y="1771.85" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="34939904" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="116.184" y="1197.53" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="170270624" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-1035.93" y="1475.94" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="36684592" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="225.85" y="1339.53" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="169684120" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-916.256" y="1670.6" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="22273776" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="721.787" y="1274.53" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="168776048" parent="0" x="-868.256" y="1569.1" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36687120" parent="0" x="426.339" y="919.615" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[линейный замкнутый объект карты]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="169857024" parent="0" x="-1199.38" y="1148.48" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Указывает на начальную точку маршрута  между двумя точечными объектами карты.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36682992" parent="0" x="-32.2027" y="878.049" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде замкнутой линии.]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="169794120" parent="0" x="-740.836" y="1190.04" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[начальная точка маршрута между двумя точками карты.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36512672" parent="0" x="686.339" y="793.365" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object maped as an enclosed line]]></content>
-        </node>
-        <node type="node/const/group" idtf="concept_mapped_linear_ring" shapeColor="0" id="36578848" parent="0" left="0" top="0" right="169.422" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="424.715" y="794.698" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="rrel_geo_route_begin" shapeColor="0" id="169936120" parent="0" left="0" top="0" right="132" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-742.46" y="1065.13" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="28765040" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="686.652" y="912.365" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="169796560" parent="0" x="-417.792" y="1049.66" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[first element of route for two mapped points.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="167550672" parent="0" x="-928.46" y="1146.29" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="36648656" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="588.589" y="871.365" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="168929112" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-892.523" y="1349.04" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="36517360" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="190.715" y="977.365" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="169859200" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-1086.13" y="1105.79" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="36628032" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="274.652" y="1078.61" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="169936896" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-815.127" y="994.794" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="36691408" parent="0" left="0" top="0" right="91.7969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="81.0486" y="795.698" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="168848600" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-976.46" y="1247.79" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="36610368" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="81.0486" y="835.365" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="169762232" parent="0" x="-928.46" y="1066.13" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="36631952" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="352.048" y="724.365" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="169794392" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-480.523" y="1182.79" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36648448" parent="0" x="238.715" y="795.698" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="169754696" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-578.586" y="1141.79" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="36665952" parent="0" x="238.715" y="875.865" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="168857552" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-1096.13" y="1053.13" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="35752928" parent="0" x="-45.7162" y="473.995" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде незамкнутой линии.]]></content>
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="166685936" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-999.025" y="629.902" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="35495712" parent="0" x="672.826" y="389.311" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object mapped as a line]]></content>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="166686208" parent="0" x="-320.69" y="626.439" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[route for two mapped points.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="25466352" parent="0" x="672.042" y="-13.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="167732528" parent="0" x="-643.734" y="766.819" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[маршрут между двумя точками карты.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="167231256" parent="0" x="-1102.28" y="725.253" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Маршрут между двумя точечными объектами карты.]]></content>
+        </node>
+        <node type="node/const/group" idtf="concept_geo_route" shapeColor="0" id="168952152" parent="0" left="0" top="0" right="116" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-645.358" y="641.902" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="169854616" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-795.421" y="925.819" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="168959400" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-879.358" y="824.569" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="168711296" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-383.421" y="759.569" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="167638504" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-481.484" y="718.569" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="169850896" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-989.025" y="682.569" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="169994440" parent="0" x="-831.358" y="723.069" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="169811920" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-718.025" y="571.569" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="168951560" parent="0" x="-831.358" y="642.902" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171275832" parent="0" x="672.042" y="-13.5" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object mapped as a point]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="35714672" parent="0" x="412.826" y="515.561" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171510352" parent="0" x="2.93243" y="1240.21" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде полигона (допускается наличие не только внешней, но и внутренней границ).]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171507088" parent="0" x="461.474" y="1281.78" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[полигональный объект карты]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171490496" parent="0" x="721.474" y="1155.53" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object maped as a polygon]]></content>
+        </node>
+        <node type="node/const/group" idtf="concept_mapped_polygon" shapeColor="0" id="171477104" parent="0" left="0" top="0" right="159" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="459.85" y="1156.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="171475640" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="116.184" y="1157.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171463872" parent="0" x="273.85" y="1238.03" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="171464024" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="623.724" y="1233.53" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171451104" parent="0" x="273.85" y="1157.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="171425392" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="387.183" y="1086.53" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="171436696" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="309.787" y="1440.77" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="171412704" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="116.184" y="1197.53" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="171390344" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="225.85" y="1339.53" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="171399912" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="721.787" y="1274.53" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171396736" parent="0" x="426.339" y="919.615" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[линейный замкнутый объект карты]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171393552" parent="0" x="-32.2027" y="878.049" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде замкнутой линии.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171377088" parent="0" x="686.339" y="793.365" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object maped as an enclosed line]]></content>
+        </node>
+        <node type="node/const/group" idtf="concept_mapped_linear_ring" shapeColor="0" id="171364656" parent="0" left="0" top="0" right="177" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="424.715" y="794.698" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="171351992" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="686.652" y="912.365" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="171339424" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="588.589" y="871.365" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="171327072" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="190.715" y="977.365" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="171312840" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="274.652" y="1078.61" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="171301184" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="81.0486" y="795.698" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="171259296" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="81.0486" y="835.365" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="171288056" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="352.048" y="724.365" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171128984" parent="0" x="238.715" y="795.698" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171117272" parent="0" x="238.715" y="875.865" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171282480" parent="0" x="-45.7162" y="473.995" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде незамкнутой линии.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171279152" parent="0" x="672.826" y="389.311" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[map object mapped as a line]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171079160" parent="0" x="412.826" y="515.561" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[линейный объект карты]]></content>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_line_string" shapeColor="0" id="35679056" parent="0" left="0" top="0" right="166.453" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="411.202" y="390.644" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_line_string" shapeColor="0" id="171259144" parent="0" left="0" top="0" right="174" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="411.202" y="390.644" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="35499536" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="338.535" y="320.311" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="171234240" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="338.535" y="320.311" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="35679984" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="261.139" y="674.561" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="171193024" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="261.139" y="674.561" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="35601568" parent="0" left="0" top="0" right="91.7969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="67.5351" y="391.644" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="171192504" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="67.5351" y="391.644" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="35734112" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="673.139" y="508.311" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="171180224" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="673.139" y="508.311" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="35732016" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="575.076" y="467.311" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="171163864" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="575.076" y="467.311" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="35698000" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="177.202" y="573.311" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="171155160" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="177.202" y="573.311" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="35494512" parent="0" x="225.202" y="391.644" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171154560" parent="0" x="225.202" y="391.644" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="22635648" parent="0" x="225.202" y="471.811" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171151136" parent="0" x="225.202" y="471.811" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="35510672" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="67.5351" y="431.311" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="171137216" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="67.5351" y="431.311" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="26167344" parent="0" x="-46.5" y="71.184" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171133368" parent="0" x="-46.5" y="71.184" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Множество всех объектов, отображаемых на карте в виде точки.]]></content>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="24841776" parent="0" x="412.042" y="112.75" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171039192" parent="0" x="412.042" y="112.75" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[точечный объект карты]]></content>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_point" shapeColor="0" id="25181536" parent="0" left="0" top="0" right="136.422" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="410.418" y="-12.167" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_point" shapeColor="0" id="171025568" parent="0" left="0" top="0" right="143" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="410.418" y="-12.167" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="32082000" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="260.355" y="271.75" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="171101144" parent="0" left="0" top="0" right="55" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="260.355" y="271.75" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="26171664" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="176.418" y="170.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="171092728" parent="0" left="0" top="0" right="84" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="176.418" y="170.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="29319888" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="672.355" y="105.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="171079296" parent="0" left="0" top="0" right="56" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="672.355" y="105.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="28900976" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="574.292" y="64.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="171066104" parent="0" left="0" top="0" right="98" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="574.292" y="64.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="32052864" parent="0" left="0" top="0" right="91.7969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="66.7513" y="-11.167" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="171054624" parent="0" left="0" top="0" right="148" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="66.7513" y="28.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="20265008" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="66.7513" y="28.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171052568" parent="0" x="224.418" y="69" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="25466064" parent="0" x="224.418" y="69" haveBus="false" idtf_pos="0">
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="171041152" parent="0" left="0" top="0" right="126" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="337.751" y="-82.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="34228288" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="337.751" y="-82.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="171039328" parent="0" x="224.418" y="-11.167" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/general_node" idtf="" shapeColor="0" id="26165648" parent="0" x="224.418" y="-11.167" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_map_object" shapeColor="0" id="171025704" parent="0" left="0" top="0" right="127" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-558.832" y="-83.5" haveBus="true" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="concept_map_object" shapeColor="0" id="28765424" parent="0" left="0" top="0" right="121.609" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-558.832" y="-83.5" haveBus="true" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_polygon" shapeColor="0" id="171012720" parent="0" left="0" top="0" right="159" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="98.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_polygon" shapeColor="0" id="31608544" parent="0" left="0" top="0" right="150.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="98.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_linear_ring" shapeColor="0" id="170998480" parent="0" left="0" top="0" right="177" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="48.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_linear_ring" shapeColor="0" id="25201856" parent="0" left="0" top="0" right="169.422" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="48.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_line_string" shapeColor="0" id="170985064" parent="0" left="0" top="0" right="174" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="2.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_line_string" shapeColor="0" id="25070656" parent="0" left="0" top="0" right="166.453" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="2.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="concept_mapped_point" shapeColor="0" id="170961720" parent="0" left="0" top="0" right="143" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="-46.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/group" idtf="concept_mapped_point" shapeColor="0" id="27048080" parent="0" left="0" top="0" right="136.422" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-454.605" y="-46.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_inclusion" shapeColor="0" id="170920088" parent="0" left="0" top="0" right="93" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-516.454" y="168.075" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_inclusion" shapeColor="0" id="25517248" parent="0" left="0" top="0" right="88.8438" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-516.454" y="168.075" haveBus="false" idtf_pos="0">
+        <node type="node/const/group" idtf="sc_explanation" shapeColor="0" id="170643136" parent="0" left="0" top="0" right="96" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="56.7513" y="-24.167" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26342608" parent="0" id_b="36688720" id_e="34810112" b_x="273.85" b_y="1238.03" e_x="273.85" e_y="1157.86" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169147912" parent="0" id_b="168776048" id_e="170563072" b_x="-868.256" b_y="1569.1" e_x="-1139.18" e_y="1571.29" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169142288" parent="0" id_b="170270624" id_e="168775328" b_x="-1035.93" b_y="1475.94" e_x="-868.256" e_y="1488.94" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169145000" parent="0" id_b="168775328" id_e="167237776" b_x="-868.256" b_y="1488.94" e_x="-682.256" e_y="1487.94" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169141616" parent="0" id_b="169682536" id_e="168963032" b_x="-832.319" b_y="1771.85" e_x="-680.632" e_y="1612.85" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169145728" parent="0" id_b="169174432" id_e="168729368" b_x="-420.319" b_y="1605.6" e_x="-357.588" e_y="1472.47" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="169149992" parent="0" id_b="168776048" id_e="168775328" b_x="-868.256" b_y="1569.1" e_x="-868.256" e_y="1488.94" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26344736" parent="0" id_b="32287280" id_e="25530192" b_x="459.85" b_y="1156.86" e_x="721.474" e_y="1155.53" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169140864" parent="0" id_b="169684120" id_e="169147912" b_x="-916.256" b_y="1670.6" e_x="60.2043" e_y="422.814" dotBBalance="0" dotEBalance="0.433333">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169144272" parent="0" id_b="169682536" id_e="170563072" b_x="-832.319" b_y="1771.85" e_x="-1139.18" e_y="1571.29" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169147184" parent="0" id_b="168891984" id_e="169145000" b_x="-754.923" b_y="1417.61" e_x="60.2043" e_y="422.814" dotBBalance="0" dotEBalance="0.629361">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169897400" parent="0" id_b="169214496" id_e="169149264" b_x="-518.382" b_y="1564.6" e_x="60.2043" e_y="422.814" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169143280" parent="0" id_b="169214496" id_e="169148640" b_x="-518.382" b_y="1564.6" e_x="60.2043" e_y="422.814" dotBBalance="0" dotEBalance="0.773584">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169146456" parent="0" id_b="170584624" id_e="169149992" b_x="-1025.93" b_y="1528.6" e_x="60.2043" e_y="422.814" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="169148640" parent="0" id_b="167237776" id_e="168729368" b_x="-682.256" b_y="1487.94" e_x="-357.588" e_y="1472.47" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26343712" parent="0" id_b="32287280" id_e="28833408" b_x="459.85" b_y="1156.86" e_x="461.474" e_y="1281.78" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="169149264" parent="0" id_b="167237776" id_e="168963032" b_x="-682.256" b_y="1487.94" e_x="-680.632" e_y="1612.85" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="22888800" parent="0" id_b="34811424" id_e="34810112" b_x="116.184" b_y="1157.86" e_x="273.85" e_y="1157.86" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168692488" parent="0" id_b="169859200" id_e="168696856" b_x="-1086.13" b_y="1105.79" e_x="-97.1024" e_y="423.225" dotBBalance="0" dotEBalance="0.518994">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26341584" parent="0" id_b="21888720" id_e="24956128" b_x="387.183" b_y="1086.53" e_x="35.1351" e_y="362.162" dotBBalance="0" dotEBalance="0.629361">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168695400" parent="0" id_b="168929112" id_e="169857024" b_x="-892.523" b_y="1349.04" e_x="-1199.38" e_y="1148.48" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="33333232" parent="0" id_b="35828752" id_e="25529616" b_x="309.787" b_y="1440.77" e_x="2.93243" e_y="1240.21" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169776512" parent="0" id_b="169794392" id_e="169796560" b_x="-480.523" b_y="1182.79" e_x="-417.792" e_y="1049.66" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24956128" parent="0" id_b="34810112" id_e="32287280" b_x="273.85" b_y="1157.86" e_x="459.85" e_y="1156.86" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169843576" parent="0" id_b="168857552" id_e="169762232" b_x="-1096.13" b_y="1053.13" e_x="-928.46" e_y="1066.13" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="33332208" parent="0" id_b="22889072" id_e="26343712" b_x="623.724" b_y="1233.53" e_x="35.1351" e_y="362.162" dotBBalance="0" dotEBalance="0.703952">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168693216" parent="0" id_b="169754696" id_e="167219544" b_x="-578.586" b_y="1141.79" e_x="-97.1024" e_y="423.225" dotBBalance="0" dotEBalance="0.773584">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="23370208" parent="0" id_b="34939904" id_e="26342608" b_x="116.184" b_y="1197.53" e_x="35.1351" e_y="362.162" dotBBalance="0" dotEBalance="0.518994">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168696128" parent="0" id_b="168848600" id_e="169844568" b_x="-976.46" b_y="1247.79" e_x="-97.1024" e_y="423.225" dotBBalance="0" dotEBalance="0.433333">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25912352" parent="0" id_b="35828752" id_e="28833408" b_x="309.787" b_y="1440.77" e_x="461.474" e_y="1281.78" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169842056" parent="0" id_b="168929112" id_e="169794120" b_x="-892.523" b_y="1349.04" e_x="-740.836" e_y="1190.04" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24955104" parent="0" id_b="22889072" id_e="26344736" b_x="623.724" b_y="1233.53" e_x="35.1351" e_y="362.162" dotBBalance="0" dotEBalance="0.773584">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168694672" parent="0" id_b="169936896" id_e="169842848" b_x="-815.127" b_y="994.794" e_x="-97.1024" e_y="423.225" dotBBalance="0" dotEBalance="0.629361">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25914720" parent="0" id_b="22273776" id_e="25530192" b_x="721.787" b_y="1274.53" e_x="721.474" e_y="1155.53" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25913744" parent="0" id_b="36684592" id_e="22009840" b_x="225.85" b_y="1339.53" e_x="35.1351" e_y="362.162" dotBBalance="0" dotEBalance="0.433333">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="22009840" parent="0" id_b="36688720" id_e="25529616" b_x="273.85" b_y="1238.03" e_x="2.93243" e_y="1240.21" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="36721776" parent="0" id_b="36578848" id_e="36512672" b_x="424.715" b_y="794.698" e_x="686.339" e_y="793.365" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="168696856" parent="0" id_b="167550672" id_e="169762232" b_x="-928.46" b_y="1146.29" e_x="-928.46" e_y="1066.13" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="36720480" parent="0" id_b="36578848" id_e="36687120" b_x="424.715" b_y="794.698" e_x="426.339" e_y="919.615" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="167218848" parent="0" id_b="169936120" id_e="169794120" b_x="-742.46" b_y="1065.13" e_x="-740.836" e_y="1190.04" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="36722832" parent="0" id_b="36665952" id_e="36648448" b_x="238.715" b_y="875.865" e_x="238.715" e_y="795.698" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="167219544" parent="0" id_b="169936120" id_e="169796560" b_x="-742.46" b_y="1065.13" e_x="-417.792" e_y="1049.66" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36713632" parent="0" id_b="36648448" id_e="36578848" b_x="238.715" b_y="795.698" e_x="424.715" e_y="794.698" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169842848" parent="0" id_b="169762232" id_e="169936120" b_x="-928.46" b_y="1066.13" e_x="-742.46" e_y="1065.13" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36718368" parent="0" id_b="36631952" id_e="36713632" b_x="352.048" b_y="724.365" e_x="13.5135" e_y="404.054" dotBBalance="0" dotEBalance="0.629361">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168693944" parent="0" id_b="169754696" id_e="167218848" b_x="-578.586" b_y="1141.79" e_x="-97.1024" e_y="423.225" dotBBalance="0" dotEBalance="0.703952">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36719424" parent="0" id_b="36691408" id_e="36648448" b_x="81.0486" b_y="795.698" e_x="238.715" e_y="795.698" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169844568" parent="0" id_b="167550672" id_e="169857024" b_x="-928.46" b_y="1146.29" e_x="-1199.38" e_y="1148.48" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36717312" parent="0" id_b="36628032" id_e="36682992" b_x="274.652" b_y="1078.61" e_x="-32.2027" e_y="878.049" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36711312" parent="0" id_b="36628032" id_e="36687120" b_x="274.652" b_y="1078.61" e_x="426.339" e_y="919.615" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36664880" parent="0" id_b="36517360" id_e="36663888" b_x="190.715" b_y="977.365" e_x="13.5135" e_y="404.054" dotBBalance="0" dotEBalance="0.433333">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36709664" parent="0" id_b="36648656" id_e="36721776" b_x="588.589" b_y="871.365" e_x="13.5135" e_y="404.054" dotBBalance="0" dotEBalance="0.773584">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36663888" parent="0" id_b="36665952" id_e="36682992" b_x="238.715" b_y="875.865" e_x="-32.2027" e_y="878.049" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36684048" parent="0" id_b="28765040" id_e="36512672" b_x="686.652" b_y="912.365" e_x="686.339" e_y="793.365" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36712576" parent="0" id_b="36648656" id_e="36720480" b_x="588.589" b_y="871.365" e_x="13.5135" e_y="404.054" dotBBalance="0" dotEBalance="0.703952">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="36711904" parent="0" id_b="36610368" id_e="36722832" b_x="81.0486" b_y="835.365" e_x="13.5135" e_y="404.054" dotBBalance="0" dotEBalance="0.518994">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35776288" parent="0" id_b="35679984" id_e="35714672" b_x="261.139" b_y="674.561" e_x="412.826" e_y="515.561" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35729856" parent="0" id_b="35732016" id_e="35785392" b_x="575.076" b_y="467.311" e_x="0.783784" e_y="402.811" dotBBalance="0" dotEBalance="0.703952">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35773040" parent="0" id_b="22635648" id_e="35752928" b_x="225.202" b_y="471.811" e_x="-45.7162" e_y="473.995" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="35786448" parent="0" id_b="35679056" id_e="35495712" b_x="411.202" b_y="390.644" e_x="672.826" e_y="389.311" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="168745960" parent="0" id_b="168952152" id_e="166686208" b_x="-645.358" b_y="641.902" e_x="-320.69" e_y="626.439" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="35784192" parent="0" id_b="22635648" id_e="35494512" b_x="225.202" b_y="471.811" e_x="225.202" e_y="391.644" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="168746584" parent="0" id_b="168952152" id_e="167732528" b_x="-645.358" b_y="641.902" e_x="-643.734" e_y="766.819" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="35785392" parent="0" id_b="35679056" id_e="35714672" b_x="411.202" b_y="390.644" e_x="412.826" e_y="515.561" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="168807328" parent="0" id_b="169994440" id_e="168951560" b_x="-831.358" b_y="723.069" e_x="-831.358" e_y="642.902" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35772176" parent="0" id_b="35734112" id_e="35495712" b_x="673.139" b_y="508.311" e_x="672.826" e_y="389.311" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168745232" parent="0" id_b="168951560" id_e="168952152" b_x="-831.358" b_y="642.902" e_x="-645.358" e_y="641.902" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35713056" parent="0" id_b="35510672" id_e="35784192" b_x="67.5351" b_y="431.311" e_x="0.783784" e_y="402.811" dotBBalance="0" dotEBalance="0.518994">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169809080" parent="0" id_b="168959400" id_e="168743832" b_x="-879.358" b_y="824.569" e_x="-1055.78" e_y="654.069" dotBBalance="0" dotEBalance="0.433333">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35775232" parent="0" id_b="35698000" id_e="35773040" b_x="177.202" b_y="573.311" e_x="0.783784" e_y="402.811" dotBBalance="0" dotEBalance="0.433333">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169922864" parent="0" id_b="168711296" id_e="166686208" b_x="-383.421" b_y="759.569" e_x="-320.69" e_y="626.439" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35782080" parent="0" id_b="35499536" id_e="35783136" b_x="338.535" b_y="320.311" e_x="0.783784" e_y="402.811" dotBBalance="0" dotEBalance="0.629361">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168744504" parent="0" id_b="167638504" id_e="168746584" b_x="-481.484" b_y="718.569" e_x="-1055.78" e_y="654.069" dotBBalance="0" dotEBalance="0.703952">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35774176" parent="0" id_b="35732016" id_e="35786448" b_x="575.076" b_y="467.311" e_x="0.783784" e_y="402.811" dotBBalance="0" dotEBalance="0.773584">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169808016" parent="0" id_b="169854616" id_e="167732528" b_x="-795.421" b_y="925.819" e_x="-643.734" e_y="766.819" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35781120" parent="0" id_b="35601568" id_e="35494512" b_x="67.5351" b_y="391.644" e_x="225.202" e_y="391.644" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169921872" parent="0" id_b="166685936" id_e="168951560" b_x="-999.025" b_y="629.902" e_x="-831.358" e_y="642.902" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35783136" parent="0" id_b="35494512" id_e="35679056" b_x="225.202" b_y="391.644" e_x="411.202" e_y="390.644" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="168743832" parent="0" id_b="169994440" id_e="167231256" b_x="-831.358" b_y="723.069" e_x="-1102.28" e_y="725.253" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35777344" parent="0" id_b="35679984" id_e="35752928" b_x="261.139" b_y="674.561" e_x="-45.7162" e_y="473.995" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169920880" parent="0" id_b="167638504" id_e="168745960" b_x="-481.484" b_y="718.569" e_x="-1055.78" e_y="654.069" dotBBalance="0" dotEBalance="0.773584">
             <points/>
         </arc>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32137104" parent="0" id_b="25181536" id_e="25466352" b_x="410.418" b_y="-12.167" e_x="672.042" e_y="-13.5" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169780032" parent="0" id_b="169811920" id_e="168745232" b_x="-718.025" b_y="571.569" e_x="-1055.78" e_y="654.069" dotBBalance="0" dotEBalance="0.629361">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169923592" parent="0" id_b="169854616" id_e="167231256" b_x="-795.421" b_y="925.819" e_x="-1102.28" e_y="725.253" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="169924320" parent="0" id_b="169850896" id_e="168807328" b_x="-989.025" b_y="682.569" e_x="-1055.78" e_y="654.069" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171561384" parent="0" id_b="171463872" id_e="171451104" b_x="273.85" b_y="1238.03" e_x="273.85" e_y="1157.86" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32134912" parent="0" id_b="25181536" id_e="24841776" b_x="410.418" b_y="-12.167" e_x="412.042" e_y="112.75" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171560656" parent="0" id_b="171477104" id_e="171490496" b_x="459.85" b_y="1156.86" e_x="721.474" e_y="1155.53" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24847776" parent="0" id_b="26165648" id_e="25181536" b_x="224.418" b_y="-11.167" e_x="410.418" e_y="-12.167" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24854592" parent="0" id_b="26171664" id_e="33959440" b_x="176.418" b_y="170.5" e_x="-24.0557" e_y="-109" dotBBalance="0" dotEBalance="0.433333">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="32133856" parent="0" id_b="29319888" id_e="25466352" b_x="672.355" b_y="105.5" e_x="672.042" e_y="-13.5" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32136048" parent="0" id_b="25466064" id_e="26165648" b_x="224.418" b_y="69" e_x="224.418" e_y="-11.167" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171559928" parent="0" id_b="171477104" id_e="171507088" b_x="459.85" b_y="1156.86" e_x="461.474" e_y="1281.78" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="33959712" parent="0" id_b="28900976" id_e="32134912" b_x="574.292" b_y="64.5" e_x="-24.0557" e_y="-109" dotBBalance="0" dotEBalance="0.703952">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24846752" parent="0" id_b="32082000" id_e="24841776" b_x="260.355" b_y="271.75" e_x="412.042" e_y="112.75" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24848800" parent="0" id_b="32052864" id_e="26165648" b_x="66.7513" b_y="-11.167" e_x="224.418" e_y="-11.167" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="33959440" parent="0" id_b="25466064" id_e="26167344" b_x="224.418" b_y="69" e_x="-46.5" e_y="71.184" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24849856" parent="0" id_b="28900976" id_e="32137104" b_x="574.292" b_y="64.5" e_x="431.944" e_y="-505" dotBBalance="0" dotEBalance="0.773584">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24850912" parent="0" id_b="34228288" id_e="24847776" b_x="337.751" b_y="-82.5" e_x="-24.0557" e_y="-109" dotBBalance="0" dotEBalance="0.629361">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="24845680" parent="0" id_b="32082000" id_e="26167344" b_x="260.355" b_y="271.75" e_x="-46.5" e_y="71.184" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="32132800" parent="0" id_b="20265008" id_e="32136048" b_x="66.7513" b_y="28.5" e_x="-24.0557" e_y="-109" dotBBalance="0" dotEBalance="0.518994">
-            <points/>
-        </arc>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32219456" parent="0" id_b="32221504" id_e="31608544" b_x="-96.3323" b_y="-232.909" e_x="-454.605" e_y="98.5" dotBBalance="0.893532" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171559200" parent="0" id_b="171364656" id_e="171377088" b_x="424.715" b_y="794.698" e_x="686.339" e_y="793.365" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="31930656" parent="0" id_b="32221504" id_e="25201856" b_x="-96.3323" b_y="-232.909" e_x="-454.605" e_y="48.5" dotBBalance="0.636811" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171558472" parent="0" id_b="171364656" id_e="171396736" b_x="424.715" b_y="794.698" e_x="426.339" e_y="919.615" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32220480" parent="0" id_b="32221504" id_e="25070656" b_x="-96.3323" b_y="-232.909" e_x="-454.605" e_y="2.5" dotBBalance="0.390703" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171557744" parent="0" id_b="171117272" id_e="171128984" b_x="238.715" b_y="875.865" e_x="238.715" e_y="795.698" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/const/orient" idtf="" shapeColor="0" id="32218432" parent="0" id_b="32221504" id_e="27048080" b_x="-96.3323" b_y="-232.909" e_x="-454.605" e_y="-46.5" dotBBalance="0.139088" dotEBalance="0">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171557016" parent="0" id_b="171259144" id_e="171279152" b_x="411.202" b_y="390.644" e_x="672.826" e_y="389.311" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="19072624" parent="0" id_b="25517248" id_e="32218432" b_x="-516.454" b_y="168.075" e_x="-96.3323" e_y="-232.909" dotBBalance="0" dotEBalance="0.633989">
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171556288" parent="0" id_b="171151136" id_e="171154560" b_x="225.202" b_y="471.811" e_x="225.202" e_y="391.644" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171555560" parent="0" id_b="171259144" id_e="171079160" b_x="411.202" b_y="390.644" e_x="412.826" e_y="515.561" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171554832" parent="0" id_b="171025568" id_e="171275832" b_x="410.418" b_y="-12.167" e_x="672.042" e_y="-13.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171554104" parent="0" id_b="171025568" id_e="171039192" b_x="410.418" b_y="-12.167" e_x="412.042" e_y="112.75" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171553376" parent="0" id_b="171052568" id_e="171039328" b_x="224.418" b_y="69" e_x="224.418" e_y="-11.167" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171552648" parent="0" id_b="171562112" id_e="171012720" b_x="0" b_y="0" e_x="-454.605" e_y="98.5" dotBBalance="0.893532" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171551920" parent="0" id_b="171562112" id_e="170998480" b_x="0" b_y="0" e_x="-454.605" e_y="48.5" dotBBalance="0.636811" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171551192" parent="0" id_b="171562112" id_e="170985064" b_x="0" b_y="0" e_x="-454.605" e_y="2.5" dotBBalance="0.390703" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="171550568" parent="0" id_b="171562112" id_e="170961720" b_x="0" b_y="0" e_x="-454.605" e_y="-46.5" dotBBalance="0.139088" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171549840" parent="0" id_b="171475640" id_e="171451104" b_x="116.184" b_y="1157.86" e_x="273.85" e_y="1157.86" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="31929776" parent="0" id_b="25517248" id_e="32220480" b_x="-516.454" b_y="168.075" e_x="-96.3323" e_y="-232.909" dotBBalance="0" dotEBalance="0.426894">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171549112" parent="0" id_b="171425392" id_e="171547656" b_x="387.183" b_y="1086.53" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.629361">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="19071664" parent="0" id_b="25517248" id_e="31930656" b_x="-516.454" b_y="168.075" e_x="-96.3323" e_y="-232.909" dotBBalance="0" dotEBalance="0.296356">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171548384" parent="0" id_b="171436696" id_e="171510352" b_x="309.787" b_y="1440.77" e_x="2.93243" e_y="1240.21" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/const/pos" idtf="" shapeColor="0" id="31928528" parent="0" id_b="25517248" id_e="32219456" b_x="-516.454" b_y="168.075" e_x="-96.3323" e_y="-230.909" dotBBalance="0" dotEBalance="0.224339">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171547656" parent="0" id_b="171451104" id_e="171477104" b_x="273.85" b_y="1157.86" e_x="459.85" e_y="1156.86" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <bus type="" idtf="" shapeColor="0" id="32221504" parent="0" owner="28765424" b_x="-558.595" b_y="-74.003" e_x="-553.788" e_y="118.075">
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171546928" parent="0" id_b="171464024" id_e="171559928" b_x="623.724" b_y="1233.53" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171546200" parent="0" id_b="171412704" id_e="171561384" b_x="116.184" b_y="1197.53" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171545472" parent="0" id_b="171436696" id_e="171507088" b_x="309.787" b_y="1440.77" e_x="461.474" e_y="1281.78" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171544744" parent="0" id_b="171464024" id_e="171560656" b_x="623.724" b_y="1233.53" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.773584">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171544016" parent="0" id_b="171399912" id_e="171490496" b_x="721.787" b_y="1274.53" e_x="721.474" e_y="1155.53" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171543288" parent="0" id_b="171390344" id_e="171542560" b_x="225.85" b_y="1339.53" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.433333">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171542560" parent="0" id_b="171463872" id_e="171510352" b_x="273.85" b_y="1238.03" e_x="2.93243" e_y="1240.21" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171541832" parent="0" id_b="171128984" id_e="171364656" b_x="238.715" b_y="795.698" e_x="424.715" e_y="794.698" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171541104" parent="0" id_b="171288056" id_e="171541832" b_x="352.048" b_y="724.365" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.629361">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171540376" parent="0" id_b="171301184" id_e="171128984" b_x="81.0486" b_y="795.698" e_x="238.715" e_y="795.698" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171539648" parent="0" id_b="171312840" id_e="171393552" b_x="274.652" b_y="1078.61" e_x="-32.2027" e_y="878.049" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171538920" parent="0" id_b="171312840" id_e="171396736" b_x="274.652" b_y="1078.61" e_x="426.339" e_y="919.615" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171538192" parent="0" id_b="171327072" id_e="171536736" b_x="190.715" b_y="977.365" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.433333">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171537464" parent="0" id_b="171339424" id_e="171559200" b_x="588.589" b_y="871.365" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.773584">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171536736" parent="0" id_b="171117272" id_e="171393552" b_x="238.715" b_y="875.865" e_x="-32.2027" e_y="878.049" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171536008" parent="0" id_b="171351992" id_e="171377088" b_x="686.652" b_y="912.365" e_x="686.339" e_y="793.365" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171535280" parent="0" id_b="171339424" id_e="171558472" b_x="588.589" b_y="871.365" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171534552" parent="0" id_b="171259296" id_e="171557744" b_x="81.0486" b_y="835.365" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171533824" parent="0" id_b="171193024" id_e="171079160" b_x="261.139" b_y="674.561" e_x="412.826" e_y="515.561" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171533096" parent="0" id_b="171163864" id_e="171555560" b_x="575.076" b_y="467.311" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171532368" parent="0" id_b="171151136" id_e="171282480" b_x="225.202" b_y="471.811" e_x="-45.7162" e_y="473.995" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171531640" parent="0" id_b="171180224" id_e="171279152" b_x="673.139" b_y="508.311" e_x="672.826" e_y="389.311" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171530912" parent="0" id_b="171137216" id_e="171556288" b_x="67.5351" b_y="431.311" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171530184" parent="0" id_b="171155160" id_e="171532368" b_x="177.202" b_y="573.311" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.433333">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171529456" parent="0" id_b="171234240" id_e="171286168" b_x="338.535" b_y="320.311" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.629361">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171528728" parent="0" id_b="171163864" id_e="171557016" b_x="575.076" b_y="467.311" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.773584">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171527296" parent="0" id_b="171192504" id_e="171154560" b_x="67.5351" b_y="391.644" e_x="225.202" e_y="391.644" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171286168" parent="0" id_b="171154560" id_e="171259144" b_x="225.202" b_y="391.644" e_x="411.202" e_y="390.644" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171525536" parent="0" id_b="171193024" id_e="171282480" b_x="261.139" b_y="674.561" e_x="-45.7162" e_y="473.995" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171524808" parent="0" id_b="171039328" id_e="171025568" b_x="224.418" b_y="-11.167" e_x="410.418" e_y="-12.167" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171524080" parent="0" id_b="171092728" id_e="171520440" b_x="176.418" b_y="170.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.433333">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171523352" parent="0" id_b="171079296" id_e="171275832" b_x="672.355" b_y="105.5" e_x="672.042" e_y="-13.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171522624" parent="0" id_b="171066104" id_e="171554104" b_x="574.292" b_y="64.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.703952">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171521896" parent="0" id_b="171101144" id_e="171039192" b_x="260.355" b_y="271.75" e_x="412.042" e_y="112.75" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171521168" parent="0" id_b="170643136" id_e="171039328" b_x="56.7513" b_y="-24.167" e_x="224.418" e_y="-11.167" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171520440" parent="0" id_b="171052568" id_e="171133368" b_x="224.418" b_y="69" e_x="-46.5" e_y="71.184" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171519864" parent="0" id_b="171066104" id_e="171554832" b_x="574.292" b_y="64.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.773584">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171519120" parent="0" id_b="171041152" id_e="171524808" b_x="337.751" b_y="-82.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.629361">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171518360" parent="0" id_b="171101144" id_e="171133368" b_x="260.355" b_y="271.75" e_x="-46.5" e_y="71.184" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171517848" parent="0" id_b="171054624" id_e="171553376" b_x="66.7513" b_y="28.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.518994">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171270592" parent="0" id_b="170920088" id_e="171550568" b_x="-516.454" b_y="168.075" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.633989">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171514040" parent="0" id_b="170920088" id_e="171551192" b_x="-516.454" b_y="168.075" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.426894">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171516144" parent="0" id_b="170920088" id_e="171551920" b_x="-516.454" b_y="168.075" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.296356">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="171515328" parent="0" id_b="170920088" id_e="171552648" b_x="-516.454" b_y="168.075" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.224339">
+            <points/>
+        </arc>
+        <bus type="" idtf="" shapeColor="0" id="171562112" parent="0" owner="171025704" b_x="-558.594" b_y="-74.003" e_x="-553.788" e_y="118.075">
             <points/>
         </bus>
     </staticSector>
