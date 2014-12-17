@@ -6,118 +6,113 @@ YandexMapLinkComponent = {
 };
 
 var YandexMapLinkViewer = function(sandbox){
-    this._initWindow(sandbox);
-};
-
-YandexMapLinkViewer.prototype = {
-    
-    _container: null,
-    
-    _initWindow: function(sandbox) {
-        this._container = '#' + sandbox.container;
-        this.sandbox = sandbox;
+	this._container = '#' + sandbox.container;
+    	this.sandbox = sandbox;
         if (this.sandbox.link_addr) {           
             this.sandbox.getLinkContent(this.sandbox.link_addr, 
                                             $.proxy(this.receiveData, this),
                                             function () {});
         }
-    },
-    
-    // ---- window interface -----
-    receiveData: function(data) {
-    	//27.529405,53.83897
-    	//15 scale
-    	//CONSTANTS
-    	//"concept_mapped_point"
-    	//"concept_mapped_line_string"
-    	//"concept_mapped_linear_ring"
-    	//"concept_mapped_polygon"
-	//"concept_geo_route"
-        $(this._container).empty();
-        $(this._container).append('<div id="' + this._container + '" style=" width: 800px;height:400px;padding: 5px;" ></div>');
-        var dataJSONArray = JSON.parse(data);
-	var index;
+	
+	 // ---- window interface -----
+	   this.receiveData= function(data) {
+	    	//27.529405,53.83897
+	    	//15 scale
+	    	//CONSTANTS
+	    	//"concept_mapped_point"
+	    	//"concept_mapped_line_string"
+	    	//"concept_mapped_linear_ring"
+	    	//"concept_mapped_polygon"
+		//"concept_geo_route"
+		$(this._container).empty();
+		$(this._container).append('<div id="' + this._container + '" style=" width: 800px;height:400px;padding: 5px;" ></div>');
+		var dataJSONArray = JSON.parse(data);
+		var index;
 
-	var myMap;
+		var myMap;
 
-	for (index = 0; index < dataJSONArray.length; ++index) {
-    		var dataJSON = dataJSONArray[index];
-		switch(dataJSON.objectType){
-			case "concept_mapped_point" :{
-				if(index==0){
-					myMap = new ymaps.Map(this._container, {
-					center: dataJSON.coordinates,
-					zoom: 10
-				    });				
-				}
-				myGeoObject = new ymaps.GeoObject({
-			        geometry: {
-			            type: "Point",
-			            coordinates: dataJSON.coordinates
-			       }
-			    });
-			myMap.geoObjects.add(myGeoObject);
-				break;
-			}
-			case "concept_mapped_line_string" :{
-				 if(index==0){
-					myMap = new ymaps.Map(this._container, {
-					center: dataJSON.coordinates[0],
-					zoom: 10
-				    });				
-				}
-				dataJSON.coordinates.pop();
-				myGeoObject = new ymaps.GeoObject({
-			        geometry: {
-			            type: "LineString",
-			            coordinates: dataJSON.coordinates
-			       }
-			    });
+		for (index = 0; index < dataJSONArray.length; ++index) {
+	    		var dataJSON = dataJSONArray[index];
+			switch(dataJSON.objectType){
+				case "concept_mapped_point" :{
+					if(index==0){
+						myMap = new ymaps.Map(this._container, {
+						center: dataJSON.coordinates,
+						zoom: 10
+					    });				
+					}
+					myGeoObject = new ymaps.GeoObject({
+					geometry: {
+					    type: "Point",
+					    coordinates: dataJSON.coordinates
+				       }
+				    });
 				myMap.geoObjects.add(myGeoObject);
-				break;
-			}
-			case "concept_mapped_linear_ring" :{
-				if(index==0){
-					myMap = new ymaps.Map(this._container, {
-					center: dataJSON.coordinates[0],
-					zoom: 10
-				    });				
+					break;
 				}
-		    		dataJSON.coordinates.push(dataJSON.coordinates[0]);
-		    		myGeoObject = new ymaps.GeoObject({
-		    	        geometry: {
-		    	            type: "LineString",
-		    	            coordinates: dataJSON.coordinates
-		    	       }
-		    	    });
-		    		myMap.geoObjects.add(myGeoObject);
-		    		break;
-			}
-			case "concept_mapped_polygon" :{
-				if(index==0){
-					myMap = new ymaps.Map(this._container, {
-					center: dataJSON.coordinates[0][0],
-					zoom: 10
-				    });				
+				case "concept_mapped_line_string" :{
+					 if(index==0){
+						myMap = new ymaps.Map(this._container, {
+						center: dataJSON.coordinates[0],
+						zoom: 10
+					    });				
+					}
+					dataJSON.coordinates.pop();
+					myGeoObject = new ymaps.GeoObject({
+					geometry: {
+					    type: "LineString",
+					    coordinates: dataJSON.coordinates
+				       }
+				    });
+					myMap.geoObjects.add(myGeoObject);
+					break;
 				}
-				dataJSON.coordinates[0].pop();
-		        dataJSON.coordinates[1].pop();
-		    		myGeoObject = new ymaps.GeoObject({
-		    	        geometry: {
-		    	            type: "Polygon",
-		    	            coordinates: [
-		    	                          dataJSON.coordinates[0],
-		    	                          dataJSON.coordinates[1],
-		    	                         ]
-		    	       }
-		    	    });
-		    		myMap.geoObjects.add(myGeoObject);
-		    		break;
+				case "concept_mapped_linear_ring" :{
+					if(index==0){
+						myMap = new ymaps.Map(this._container, {
+						center: dataJSON.coordinates[0],
+						zoom: 10
+					    });				
+					}
+			    		dataJSON.coordinates.push(dataJSON.coordinates[0]);
+			    		myGeoObject = new ymaps.GeoObject({
+			    	        geometry: {
+			    	            type: "LineString",
+			    	            coordinates: dataJSON.coordinates
+			    	       }
+			    	    });
+			    		myMap.geoObjects.add(myGeoObject);
+			    		break;
+				}
+				case "concept_mapped_polygon" :{
+					if(index==0){
+						myMap = new ymaps.Map(this._container, {
+						center: dataJSON.coordinates[0][0],
+						zoom: 10
+					    });				
+					}
+					dataJSON.coordinates[0].pop();
+				dataJSON.coordinates[1].pop();
+			    		myGeoObject = new ymaps.GeoObject({
+			    	        geometry: {
+			    	            type: "Polygon",
+			    	            coordinates: [
+			    	                          dataJSON.coordinates[0],
+			    	                          dataJSON.coordinates[1],
+			    	                         ]
+			    	       }
+			    	    });
+			    		myMap.geoObjects.add(myGeoObject);
+			    		break;
+				}
 			}
 		}
-	}
 	
-    },
+	    };
+
+	this.sandbox.eventDataAppend = $.proxy(this.receiveData, this);
+
+	this.sandbox.updateContent();
 };
 
 SCWeb.core.ComponentManager.appendComponentInitialize(YandexMapLinkComponent);
